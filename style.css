@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    font-family: inter;
+
+}
+#menusuperior{
+    background-color: #303030;
+    color: #ffff;
+}
+#titulomenusuperior{
+    margin-left: 60px;
+    padding-top: 100px;
+    font-size: 40px;
+}
+#textomenusuperior{
+    margin-left: 60px;
+    padding-bottom: 100px;
+    font-size: 15px;
+}
+#menuinformacional{
+    background-color:#F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px 0px 50px 100px;
+}
+.titulomenuinformacional{
+    font-size: 20px;
+}
+.textomenuinformacional{
+    font-weight: normal;
+}
+#secaoimagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 60px;
+    align-items: center;
+}
+#fotosalacasa{
+    padding: 50px;
+}
+#titulosecaoimagem{
+    font-size: 35px;
+}
+#textosecaoimagem{
+    font-weight: normal;
+    font-size: 21px;
+}
+#formulario{
+    background-color: #303030;       
+    text-align: center;
+}
+#tituloformulario{
+    color: white;
+    font-size: 20px;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+input{
+    background-color: #ffff;
+    font-family: Raleway;
+    font-weight: 700;
+    width: 300px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin: 15px;
+}
+button{
+    background-color: #C07212;
+    color: white;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    margin: 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ff9719;
+    color: white;
+    transform: translatey(-5px);
+    transition-duration: 0.5s;
+}
